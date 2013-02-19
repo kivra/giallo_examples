@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Hello from Giallo!</title>
+    <link rel="stylesheet" href="/static/css/style.css">
+    <!--[if IE]>
+        <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+</head>
+
+<body id="home">
+
+    <a href="/echo/queryparam?param=Echo+Pecho">Echo querystring parameter</a>
+    <form method="post" action="/echo/postparam">
+        <input type="text" name="param" value="Echo Pecho"/>
+        <input type="submit" />
+    </form>
+
+</body>
+</html>

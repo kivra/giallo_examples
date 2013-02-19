@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Hello from Giallo!</title>
+    <link rel="stylesheet" href="static/css/style.css">
+    <!--[if IE]>
+        <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+</head>
+
+<body id="home">
+
+    <img src="static/img/cat.jpg" alt="Kitty!"/>
+    <h1>Hello from Giallo!</h1><br/>
+    <a href="echo">Echo</a>
+
+</body>
+</html>

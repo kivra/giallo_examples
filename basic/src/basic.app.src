@@ -1,0 +1,14 @@
+{application, basic, [
+    {description, "Basic Giallo example."},
+    {vsn, "1"},
+    {modules, []},
+    {registered, []},
+    {applications, [
+        kernel,
+        stdlib,
+        cowboy,
+        giallo
+    ]},
+    {mod, {basic_app, []}},
+    {env, []}
+]}.
