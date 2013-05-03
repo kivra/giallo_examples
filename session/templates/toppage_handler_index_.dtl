@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Hello from Giallo!</title>
+    <link rel="stylesheet" href="static/css/style.css">
+    <!--[if IE]>
+        <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+</head>
+
+<body id="home">
+
+Session variable X is initialized with: {{ session_param }}<br/><br/>
+
+Put a value in session variable X <a href="/?X=lolol">Go</a>
+
+</body>
+</html>
